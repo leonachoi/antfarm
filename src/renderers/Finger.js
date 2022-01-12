@@ -15,10 +15,11 @@ const styles = StyleSheet.create({
   finger: {
     borderColor: '#CCC',
     borderWidth: 4,
-    borderRadius: RADIUS * 2,
+    // borderRadius: RADIUS * 2,
+    transform: [{rotate: '45deg'}],
     width: RADIUS * 2,
     height: RADIUS * 2,
-    backgroundColor: 'pink',
+    backgroundColor: '#cbe3b1',
     position: 'absolute',
   },
 });
